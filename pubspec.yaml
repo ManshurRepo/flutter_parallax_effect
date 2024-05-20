@@ -1,0 +1,48 @@
+name: flutter_parallax_widget
+description: "A new Flutter project."
+
+
+publish_to: "none" 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  build_runner: ^2.4.10
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.6
+  device_preview: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_gen_runner: ^5.4.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_gen:
+  output: lib/core/assets/
+
+flutter:  
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+      
+  fonts:
+    - family: RacingSansOne
+      fonts:
+        - asset: font/RacingSansOne-Regular.ttf
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
